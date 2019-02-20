@@ -1,0 +1,5 @@
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <p class="py-3"><%= @article.content.gsub(/", "/, " ").delete("[\"").delete("]") %></p>
+  <%= link_to "🔙 Home", articles_path %>
+</div>

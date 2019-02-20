@@ -1,0 +1,25 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: lightblue;
+  margin-top: 36px;
+  color: white;
+}
+
+input {
+  margin: 16px 0;
+}
+
+#article_content {
+    height: 200px;
+  }
